@@ -3,6 +3,7 @@
 <head>
     <meta charset="uft-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
     <title>Desafio01</title>
 </head>
 <body>
@@ -12,8 +13,8 @@
     <section>
         <form action="calc.php" method="get">
             <label for="nom">Numero</label>
-            <input type="submit" value="Calcule">
-            <button type="button"></button>
+            <input type="text" name="num" id="numcalc">
+            <input type="submit" value="Calcule">           
         </form>
     </section>
     
